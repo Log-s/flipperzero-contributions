@@ -7,6 +7,6 @@ This patch allows you to use the **Bad USB** module on computers configured to u
 2. Compile the firmawre : `sudo docker-compose up -d && sudo docker-compose exec dev ./fbt`
 3. Flash the firmware : In the qFlipper companion app, choose `Install from file` and use `/dist/f7-D/flipper-z-f7-full-local.dfu`
 
-### Disclaimer
+### Contributers
 
-This doesn't work with the latest versions of the vanilla firmware. In the meantime, you can use the `ALTSTRING` directive in your ducky script instead of `STRING`. It should type in AZERTY.
+[p-h-0-x](https://github.com/p-h-0-x)
